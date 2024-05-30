@@ -17,12 +17,12 @@ else:
 liste = ["dies", "ist", 5, "eine", "liste"] + ["und", "noch", "eine"]
 print(liste)
 
-d = {"Mia": "Marvin", "Marvin": "Mia"}
-print(d["Mia"])
+d = {"Ich": "Marvin", "Marvin": "Ich"}
+print(d["Ich"])
 print(d["Marvin"])
-d["Mia"] = "toll"
-d["Marvin"] = "noch toller"
-print(d["Mia"])
+d["Ich"] = "das bin ich"
+d["Marvin"] = "noch mehr ich"
+print(d["Ich"])
 print(d["Marvin"])
 
 name = 5.5
@@ -31,3 +31,12 @@ print(Name2)
 
 if 3 < 4:
     print("richtig")
+if 3 == 4 or 3 != 4 or 3 < 4 or 3 > 4 or 3 <= 4 or 3 >= 4:
+    print("irgendwas ist richtig")
+
+if not 4 < 3:
+    if "true":
+        print("stimmt nicht")
+
+print(max([1, 4, 5, 8, 5, 20, 6]))
+print(min([1, 4, 5, 8, 5, 20, 6]))
